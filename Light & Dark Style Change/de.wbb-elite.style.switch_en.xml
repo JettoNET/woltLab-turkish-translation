@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="de.wbb-elite.style">
+		<item name="de.wbb-elite.style.switch.dark"><![CDATA[Light style]]></item>
+		<item name="de.wbb-elite.style.switch.light"><![CDATA[Dark style]]></item>
+		<item name="de.wbb-elite.style.switch.light.error.both"><![CDATA[Either a dark or light style may be selected.]]></item>
+		<item name="de.wbb-elite.style.switch.to.dark"><![CDATA[Activate dark style]]></item>
+		<item name="de.wbb-elite.style.switch.to.light"><![CDATA[Activate light style]]></item>
+	</category>
+</language>
