@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.message.general.hideforguests"><![CDATA[HideForGuests]]></item>
+		<item name="wcf.acp.option.hideforguests_attachment"><![CDATA[Hide attachments for guests]]></item>
+		<item name="wcf.acp.option.hideforguests_easymediaalbum"><![CDATA[Hide albums from the media management system EasyMedia for guests (if installed)]]></item>
+		<item name="wcf.acp.option.hideforguests_easymediaimage"><![CDATA[Hide pictures from the media management system EasyMedia for guests (if installed)]]></item>
+		<item name="wcf.acp.option.hideforguests_easymediavideo"><![CDATA[Hide videos from the media management system EasyMedia for guests (if installed)]]></item>
+		<item name="wcf.acp.option.hideforguests_gallery"><![CDATA[Hide pictures from the gallery for guests (if installed)]]></item>
+		<item name="wcf.acp.option.hideforguests_img"><![CDATA[Hide external pitures for guests]]></item>
+		<item name="wcf.acp.option.hideforguests_link"><![CDATA[Hide links for guests]]></item>
+		<item name="wcf.acp.option.hideforguests_link_internal"><![CDATA[Hide internal links for guests]]></item>
+		<item name="wcf.acp.option.hideforguests_media"><![CDATA[Hide external media elements and media elements from the media management for guests]]></item>
+	</category>
+	<category name="wcf.bbcode">
+		<item name="wcf.bbcode.buttonLabelHideBBCode"><![CDATA[Hide Content for Guests]]></item>
+	</category>
+	<category name="wcf.hideforguests">
+		<item name="wcf.hideforguests.attachment.description"><![CDATA[Login or Register to see the attachment.]]></item>
+		<item name="wcf.hideforguests.bbcode.description"><![CDATA[Login or Register to view content.]]></item>
+		<item name="wcf.hideforguests.easymediaalbum.description"><![CDATA[Login or Register to see the album.]]></item>
+		<item name="wcf.hideforguests.easymediaimage.description"><![CDATA[Login or Register to see the picture.]]></item>
+		<item name="wcf.hideforguests.easymediavideo.description"><![CDATA[Login or Register to see the video.]]></item>
+		<item name="wcf.hideforguests.gallery.description"><![CDATA[Login or Register to see the picture.]]></item>
+		<item name="wcf.hideforguests.img.description"><![CDATA[Login or Register to see the picture.]]></item>
+		<item name="wcf.hideforguests.link.description"><![CDATA[Login or Register to see the download link.]]></item>
+		<item name="wcf.hideforguests.media.description"><![CDATA[Login or Register to view media.]]></item>
+	</category>
+</language>
