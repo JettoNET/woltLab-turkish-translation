@@ -1,1 +1,10 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="tr" languagename="Turkish" countrycode="tr">
+	<category name="de.wbb-elite.style">
+		<item name="de.wbb-elite.style.switch.dark"><![CDATA[Siyah Temanızı Seçin]]></item>
+		<item name="de.wbb-elite.style.switch.light"><![CDATA[Beyaz Temanızı Seçin]]></item>
+		<item name="de.wbb-elite.style.switch.light.error.both"><![CDATA[Koyu veya açık stil seçilebilir.]]></item>
+		<item name="de.wbb-elite.style.switch.to.dark"><![CDATA[Siyah Tema]]></item>
+		<item name="de.wbb-elite.style.switch.to.light"><![CDATA[Beyaz Tema]]></item>
+	</category>
+</language>
