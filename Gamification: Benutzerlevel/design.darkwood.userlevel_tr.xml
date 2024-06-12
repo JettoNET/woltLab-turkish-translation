@@ -1,1 +1,61 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="tr" languagename="Turkish" countrycode="tr">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.user.userlevel"><![CDATA[Kullanıcı Seviyesi]]></item>
+		<item name="wcf.acp.option.category.user.userlevel.settings"><![CDATA[Ayarlar]]></item>
+		<item name="wcf.acp.option.userlevel_settings_hide_avatar_in_sidebar"><![CDATA[Postbit çubuğunda avatarı gizle]]></item>
+		<item name="wcf.acp.option.userlevel_settings_hide_avatar_in_sidebar.description"><![CDATA[Bu seçenek seçilirse, büyük avatar artık postbit çubuğunda görüntülenmez.]]></item>
+		<item name="wcf.acp.option.userlevel_settings_multiplier"><![CDATA[Seviye atlama hızı]]></item>
+		<item name="wcf.acp.option.userlevel_settings_multiplier.description"><![CDATA[Bir kullanıcının bir sonraki seviyeye ulaşmak için kaç etkinlik puanına ihtiyacı olduğunu belirtir.
+<table>
+	<tbody>
+		<tr>
+			<td style="padding-right:5px;">etkinlik puanları</td>
+			<td style="padding-right:5px;">hızlı</td>
+			<td style="padding-right:5px;">orta</td>
+			<td style="padding-right:5px;">yavaş</td>
+		</tr>
+		<tr>
+			<td>50</td>
+			<td>3</td>
+			<td>3</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>900</td>
+			<td>13</td>
+			<td>10</td>
+			<td>7</td>
+		</tr>
+		<tr>
+			<td>9.000</td>
+			<td>38</td>
+			<td>29</td>
+			<td>19</td>
+		</tr>
+		<tr>
+			<td>15.000</td>
+			<td>49</td>
+			<td>37</td>
+			<td>25</td>
+		</tr>
+		<tr>
+			<td>90.000</td>
+			<td>121</td>
+			<td>91</td>
+			<td>61</td>
+		</tr>
+	</tbody>
+</table>]]></item>
+		<item name="wcf.acp.option.userlevel_settings_show_avatar_in_bar"><![CDATA[Kullanıcı seviyesinin yanında avatarı göster]]></item>
+		<item name="wcf.acp.option.userlevel_settings_show_avatar_in_bar.description"><![CDATA[Kullanıcı seviyesinin yanında küçük bir avatar görüntülenir.]]></item>
+		<item name="wcf.acp.option.userlevel_settings_show_level_in_header"><![CDATA[Kullanıcı seviyesini başlıkta göster]]></item>
+		<item name="wcf.acp.option.userlevel_settings_show_level_in_header.description"><![CDATA[Bu seçenek seçilirse, kullanıcı seviyesi de üst menüde görüntülenir.]]></item>
+		<item name="wcf.acp.option.wcf_module_userlevel"><![CDATA[Kullanıcı seviyesi aktif edilsin mi?]]></item>
+	</category>
+	<category name="wcf.userlevel">
+		<item name="wcf.userlevel.multiplier.fast"><![CDATA[hızlı]]></item>
+		<item name="wcf.userlevel.multiplier.mid"><![CDATA[orta]]></item>
+		<item name="wcf.userlevel.multiplier.slow"><![CDATA[yavaş]]></item>
+	</category>
+</language>
