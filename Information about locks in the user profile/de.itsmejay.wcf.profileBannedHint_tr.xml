@@ -1,1 +1,15 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="tr" languagename="Turkish" countrycode="tr">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.profile.profileBannedHint"><![CDATA[Kullanıcı profilindeki yasaklar hakkında bilgi kutusu]]></item>
+		<item name="wcf.acp.group.option.user.profile.profileBannedHint.canSeeBannedHint"><![CDATA[Yasakları görebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.profile.profileBannedHint.canSeeBannedHint.description"><![CDATA[Bu gruptaki kullanıcılar, diğer kullanıcı profillerindeki yasaklamaları görebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.profile.profileBannedHint.canSeeBannedInfo"><![CDATA[Yasaklanma nedenlerini görebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.profile.profileBannedHint.canSeeBannedInfo.description"><![CDATA[Bu ayar etkinleştirilirse, yasaklanma nedeni ve yasaklanma süresini görebilir.]]></item>
+	</category>
+	<category name="wcf.profileBannedHint">
+		<item name="wcf.profileBannedHint.userBannedReason"><![CDATA[{@$user->banReason|newlineToBreak}]]></item>
+		<item name="wcf.profileBannedHint.userBannedUntilWhen"><![CDATA[{if $user->banExpires != 0}Aşağıdaki sebepten dolayı yasaklandı. Yasaklamanın biteceği süre: {@$user->banExpires|plainTime}{else}Aşağıdaki sebepten dolayı süresiz yasaklandı.{/if}]]></item>
+		<item name="wcf.profileBannedHint.userIsBanned"><![CDATA[Kullanıcı: <strong>{$user->username}</strong>]]></item>
+	</category>
+</language>
