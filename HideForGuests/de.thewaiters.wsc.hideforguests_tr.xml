@@ -1,1 +1,29 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="tr" languagename="Turkish" countrycode="tr">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.message.general.hideforguests"><![CDATA[Misafirler İçin Gizle]]></item>
+		<item name="wcf.acp.option.hideforguests_attachment"><![CDATA[Misafirler için ekleri gizle]]></item>
+		<item name="wcf.acp.option.hideforguests_easymediaalbum"><![CDATA[Misafirler için medya yönetim sistemi EasyMedia'dan albümleri gizleyin (kuruluysa)]]></item>
+		<item name="wcf.acp.option.hideforguests_easymediaimage"><![CDATA[Misafirler için medya yönetim sistemi EasyMedia'daki resimleri gizleyin (kuruluysa)]]></item>
+		<item name="wcf.acp.option.hideforguests_easymediavideo"><![CDATA[Misafirler için medya yönetim sistemi EasyMedia'daki videoları gizleyin (kuruluysa)]]></item>
+		<item name="wcf.acp.option.hideforguests_gallery"><![CDATA[Misafirler için galerideki resimleri gizleyin (yüklüyse)]]></item>
+		<item name="wcf.acp.option.hideforguests_img"><![CDATA[Misafirler için resimleri gizle]]></item>
+		<item name="wcf.acp.option.hideforguests_link"><![CDATA[Misafirler için bağlantıları gizle]]></item>
+		<item name="wcf.acp.option.hideforguests_link_internal"><![CDATA[Misafirler için dahili bağlantıları gizle]]></item>
+		<item name="wcf.acp.option.hideforguests_media"><![CDATA[Misafirler için medya öğelerini medya yönetiminden gizleme]]></item>
+	</category>
+	<category name="wcf.bbcode">
+		<item name="wcf.bbcode.buttonLabelHideBBCode"><![CDATA[Misafirler için içeriği gizle]]></item>
+	</category>
+	<category name="wcf.hideforguests">
+		<item name="wcf.hideforguests.attachment.description"><![CDATA[Bu eki görmek için lütfen giriş yapınız.]]></item>
+		<item name="wcf.hideforguests.bbcode.description"><![CDATA[Bu içeriği görmek için lütfen giriş yapınız.]]></item>
+		<item name="wcf.hideforguests.easymediaalbum.description"><![CDATA[Bu albümü görmek için lütfen giriş yapın.]]></item>
+		<item name="wcf.hideforguests.easymediaimage.description"><![CDATA[Bu resmi görmek için lütfen giriş yapın.]]></item>
+		<item name="wcf.hideforguests.easymediavideo.description"><![CDATA[Bu videoyu görmek için lütfen giriş yapın.]]></item>
+		<item name="wcf.hideforguests.gallery.description"><![CDATA[Bu resmi görmek için lütfen giriş yapın.]]></item>
+		<item name="wcf.hideforguests.img.description"><![CDATA[Bu resmi görmek için lütfen giriş yapın.]]></item>
+		<item name="wcf.hideforguests.link.description"><![CDATA[Bu bağlantıyı görmek için lütfen giriş yapın.]]></item>
+		<item name="wcf.hideforguests.media.description"><![CDATA[Bu medya öğesini görmek için lütfen giriş yapın.]]></item>
+	</category>
+</language>
