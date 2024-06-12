@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.profile.profileBannedHint"><![CDATA[Information box on bans in the user profile]]></item>
+		<item name="wcf.acp.group.option.user.profile.profileBannedHint.canSeeBannedHint"><![CDATA[Can see bans]]></item>
+		<item name="wcf.acp.group.option.user.profile.profileBannedHint.canSeeBannedHint.description"><![CDATA[Users in this group can see a notification box for bans in other user profiles.]]></item>
+		<item name="wcf.acp.group.option.user.profile.profileBannedHint.canSeeBannedInfo"><![CDATA[Can see information]]></item>
+		<item name="wcf.acp.group.option.user.profile.profileBannedHint.canSeeBannedInfo.description"><![CDATA[If this setting is activated, the ban reason and the ban duration are displayed in the message.]]></item>
+	</category>
+	<category name="wcf.profileBannedHint">
+		<item name="wcf.profileBannedHint.userBannedReason"><![CDATA[{@$user->banReason|newlineToBreak}]]></item>
+		<item name="wcf.profileBannedHint.userBannedUntilWhen"><![CDATA[{if $user->banExpires != 0}Banned for the following reason. Duration of ban: {@$user->banExpires|plainTime}{else}Banned indefinitely for the following reason.{/if}]]></item>
+		<item name="wcf.profileBannedHint.userIsBanned"><![CDATA[User: <strong>{$user->username}</strong>]]></item>
+	</category>
+</language>
