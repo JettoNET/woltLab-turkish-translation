@@ -16,14 +16,14 @@
 		<item name="wcf.bbcode.buttonLabelHideBBCode"><![CDATA[Misafirler için içeriği gizle]]></item>
 	</category>
 	<category name="wcf.hideforguests">
-		<item name="wcf.hideforguests.attachment.description"><![CDATA[Bu eki görmek için lütfen giriş yapınız.]]></item>
-		<item name="wcf.hideforguests.bbcode.description"><![CDATA[Bu içeriği görmek için lütfen giriş yapınız.]]></item>
-		<item name="wcf.hideforguests.easymediaalbum.description"><![CDATA[Bu albümü görmek için lütfen giriş yapın.]]></item>
-		<item name="wcf.hideforguests.easymediaimage.description"><![CDATA[Bu resmi görmek için lütfen giriş yapın.]]></item>
-		<item name="wcf.hideforguests.easymediavideo.description"><![CDATA[Bu videoyu görmek için lütfen giriş yapın.]]></item>
-		<item name="wcf.hideforguests.gallery.description"><![CDATA[Bu resmi görmek için lütfen giriş yapın.]]></item>
-		<item name="wcf.hideforguests.img.description"><![CDATA[Bu resmi görmek için lütfen giriş yapın.]]></item>
-		<item name="wcf.hideforguests.link.description"><![CDATA[Bu bağlantıyı görmek için lütfen giriş yapın.]]></item>
-		<item name="wcf.hideforguests.media.description"><![CDATA[Bu medya öğesini görmek için lütfen giriş yapın.]]></item>
+		<item name="wcf.hideforguests.attachment.description"><![CDATA[Eki görmek için Giriş Yap veya Kayıt Ol.]]></item>
+		<item name="wcf.hideforguests.bbcode.description"><![CDATA[İçeriği görmek için Giriş Yap veya Kayıt Ol.]]></item>
+		<item name="wcf.hideforguests.easymediaalbum.description"><![CDATA[Albümü görmek için Giriş Yap veya Kayıt Ol.]]></item>
+		<item name="wcf.hideforguests.easymediaimage.description"><![CDATA[Resmi görmek için Giriş Yap veya Kayıt Ol.]]></item>
+		<item name="wcf.hideforguests.easymediavideo.description"><![CDATA[Videoyu görmek için Giriş Yap veya Kayıt Ol.]]></item>
+		<item name="wcf.hideforguests.gallery.description"><![CDATA[Resmi görmek için Giriş Yap veya Kayıt Ol.]]></item>
+		<item name="wcf.hideforguests.img.description"><![CDATA[Resmi görmek için Giriş Yap veya Kayıt Ol.]]></item>
+		<item name="wcf.hideforguests.link.description"><![CDATA[İndirme bağlantısını görmek için Giriş Yap veya Kayıt Ol.]]></item>
+		<item name="wcf.hideforguests.media.description"><![CDATA[Medyayı görmek için Giriş Yap veya Kayıt Ol.]]></item>
 	</category>
 </language>
