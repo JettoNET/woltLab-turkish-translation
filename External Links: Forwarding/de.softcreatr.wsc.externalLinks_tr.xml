@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="tr" languagename="Turkish" countrycode="tr">
+	<category name="wcf.acp.ad">
+		<item name="wcf.acp.ad.location.de.softcreatr.wsc.externalLinks.redirectPage.bottom"><![CDATA[Dış Bağlantılar: Yönlendirme Sayfası (altta)]]></item>
+		<item name="wcf.acp.ad.location.de.softcreatr.wsc.externalLinks.redirectPage.top"><![CDATA[Dış Bağlantılar: Yönlendirme Sayfası (üstte)]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.general.page.externalLinks"><![CDATA[Dış Bağlantılar: Yönlendirme]]></item>
+		<item name="wcf.acp.option.sc_external_links_enable_dialog"><![CDATA[Yönlendirme iletişim kutusu aktif edilsin mi?]]></item>
+		<item name="wcf.acp.option.sc_external_links_enable_dialog.description"><![CDATA[Etkinleştirildiğinde, yönlendirme sayfası yerine bir iletişim kutusu görüntülenecektir.]]></item>
+		<item name="wcf.acp.option.sc_external_links_hide_referrer"><![CDATA[Yönlendireni Gizle (mümkün olduğunda)]]></item>
+		<item name="wcf.acp.option.sc_external_links_must_confirm_forwarding"><![CDATA[Onaylı yönlendirme aktif edilsin mi?]]></item>
+		<item name="wcf.acp.option.sc_external_links_redirect_timeout"><![CDATA[Yönlendirme Zaman Aşımı]]></item>
+		<item name="wcf.acp.option.sc_external_links_redirect_timeout.description"><![CDATA[Hedef web sitesine otomatik yönlendirmeye kadar zaman aşımı.]]></item>
+		<item name="wcf.acp.option.sc_external_links_whitelist"><![CDATA[Güvenilir linkler]]></item>
+		<item name="wcf.acp.option.sc_external_links_whitelist.description"><![CDATA[Satır başına bir alan adı. "http", "https" veya "ftp" gibi bildirimler gözden kaçırılabilir.<br /><em>Örnekler: "woltlab.com" veya "google.com".</em><br /><em> Parçaları eşleştirmek için "*" kullanın: "woltlab.*", "woltlab.com" ve "woltlab.de" ile eşleşir</em>]]></item>
+	</category>
+	<category name="wcf.global">
+		<item name="wcf.global.externalLink.dialog.message"><![CDATA[Bu bağlantı sizi <b>Jetto.NET</b> dışındaki bir siteye yönlendiriyor.]]></item>
+		<item name="wcf.global.externalLink.dialog.message.warning"><![CDATA[Hedef web sitesinin bizim tarafımızdan yönetilmediğini lütfen unutmayın. İçeriğinden sorumlu değiliz ve gizlilik politikamız geçerli değildir.]]></item>
+		<item name="wcf.global.externalLink.dialog.title"><![CDATA[Jetto.NET'den ayrılıyorsunuz]]></item>
+		<item name="wcf.global.externalLink.message"><![CDATA[Jetto.NET'den ayrılıyorsunuz.<br/>]]></item>
+		<item name="wcf.global.externalLink.message.button.back"><![CDATA[GERİ DÖN]]></item>
+		<item name="wcf.global.externalLink.message.button.close"><![CDATA[İPTAL ET]]></item>
+		<item name="wcf.global.externalLink.message.button.continue"><![CDATA[DEVAM ET]]></item>
+		<item name="wcf.global.externalLink.message.forwarding"><![CDATA[<span class="bold"><a href="{$externalLink}">{$externalLink|truncate:35}</a></span> adresine yönlendiriliyorsunuz]]></item>
+		<item name="wcf.global.externalLink.message.warning"><![CDATA[Bu bağlantı sizi <b>Jetto.NET</b> dışındaki bir siteye yönlendiriyor.]]></item>
+		<item name="wcf.global.externalLink.title"><![CDATA[Jetto.NET'den ayrılıyorsunuz.]]></item>
+	</category>
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.showRedirectConfirmation"><![CDATA[Confirm redirect]]></item>
+		<item name="wcf.user.option.showRedirectConfirmation.description"><![CDATA[When enabled, redirects to external websites need confirmation. Disable this option at your own risk.]]></item>
+	</category>
+</language>
