@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="tr" languagename="Turkish" countrycode="tr">
+	<category name="de.wbb-elite.link">
+		<item name="de.wbb-elite.link.insert.add"><![CDATA[Bağlantı Tanımla]]></item>
+		<item name="de.wbb-elite.link.insert.edit"><![CDATA[Tanımlanan Bağlantıyı Düzenle]]></item>
+		<item name="de.wbb-elite.link.insert.list"><![CDATA[Kelimeye URL Tanımla]]></item>
+		<item name="de.wbb-elite.link.insert.title"><![CDATA[Bağlantı #{$insertID}]]></item>
+		<item name="de.wbb-elite.link.replace"><![CDATA[Link replacement]]></item>
+		<item name="de.wbb-elite.link.replace.add"><![CDATA[Bağlantı Tanımla]]></item>
+		<item name="de.wbb-elite.link.replace.edit"><![CDATA[Tanımlanan Bağlantıyı Düzenle]]></item>
+		<item name="de.wbb-elite.link.replace.error.invalidRegex"><![CDATA[Düzenli ifade geçersiz!]]></item>
+		<item name="de.wbb-elite.link.replace.insert"><![CDATA[Yeni Bağlantı]]></item>
+		<item name="de.wbb-elite.link.replace.insert.description"><![CDATA[Bağlantıyla değiştirilecek bir regex kodu.]]></item>
+		<item name="de.wbb-elite.link.replace.insert.link"><![CDATA[Mevcut Bağlantı]]></item>
+		<item name="de.wbb-elite.link.replace.insert.link.description"><![CDATA[<kbd>a</kbd> tanımında bulunan <kbd>href</kbd> etiketine sahip URL bağlantısı.]]></item>
+		<item name="de.wbb-elite.link.replace.link"><![CDATA[Tanımlama sağlanacak kelime için URL bağlantısı]]></item>
+		<item name="de.wbb-elite.link.replace.list"><![CDATA[Mevcut Bağlantıya Yeni URL Tanımlama]]></item>
+		<item name="de.wbb-elite.link.replace.replace.description"><![CDATA[<kbd>a</kbd> tanımında bulunan <kbd>href</kbd> etiketine sahip URL'nin yeni hedef bağlantısı.]]></item>
+		<item name="de.wbb-elite.link.replace.text"><![CDATA[Tanımlama sağlanacak kelime]]></item>
+		<item name="de.wbb-elite.link.replace.title"><![CDATA[Link replacement #{$replaceID}]]></item>
+	</category>
+</language>
