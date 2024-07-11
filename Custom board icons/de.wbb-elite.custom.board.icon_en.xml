@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="de.wbb-elite.board">
+		<item name="de.wbb-elite.board.custom.icon.use"><![CDATA[Upload custom icon]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.custom_board_template"><![CDATA[CSS-Template]]></item>
+		<item name="wcf.acp.option.custom_board_template.description"><![CDATA[Template for the individual forum icons. <b>{&#36;selector}</b> corresponds to the CSS selector and <b>{&#36;link}</b> to the URL to the image. These two should be present.]]></item>
+	</category>
+</language>
