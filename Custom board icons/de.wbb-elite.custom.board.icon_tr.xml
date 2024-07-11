@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="tr" languagename="Turkish" countrycode="tr">
+	<category name="de.wbb-elite.board">
+		<item name="de.wbb-elite.board.custom.icon.use"><![CDATA[Özel simge yükleyin]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.custom_board_template"><![CDATA[Forum İkon CSS Şablonu]]></item>
+		<item name="wcf.acp.option.custom_board_template.description"><![CDATA[Forum simgeleri için varsayılan şablon. <b>{&#36;selector}</b> değeri forum kategori ID'sini belirtir. <b>{&#36;link}</b> değeri ise, yüklenen resim ikonunun adresini belirtir. Bu iki değer, şablonda olması zorunlu.]]></item>
+	</category>
+</language>
